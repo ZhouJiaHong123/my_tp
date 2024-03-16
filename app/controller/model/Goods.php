@@ -10,6 +10,7 @@ class Goods extends Model
     protected $pk = 'gdID';
     public function goodstype()
     {
+        //hasOne()
         return $this->hasOne(Goodstype::class,'tID');
     }
 }
