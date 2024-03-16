@@ -10,7 +10,7 @@ class Goods extends Model
     protected $pk = 'gdID';
     public function goodstype()
     {
-        //hasOne()
+        //hasOne('模型','外键')
         return $this->hasOne(Goodstype::class,'tID');
     }
 }
