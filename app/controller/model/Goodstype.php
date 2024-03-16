@@ -10,8 +10,8 @@ class Goodstype extends Model
     protected $pk = 'tID';
 
 //    反向关联
-    public function goods()
-    {
-       return $this->belongsTo(Goods::class,'tID');
-    }
+//    public function goods()
+//    {
+//       return $this->belongsTo(Goods::class,'tID');
+//    }
 }
