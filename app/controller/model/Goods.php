@@ -11,7 +11,7 @@ class Goods extends Model
 
     public function goodstype()//关联副表 ->正向
     {
-        //hasOne('模型','外键')! 用此方法在模型 关联
+        //hasOne('模型','外键')! 用此方法在模型 关联   assaa
 //        return $this->hasOne('Goodstype','tID');
         return $this->hasOne(Goodstype::class,'tID');
     }
